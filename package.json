@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "project Weather app from OdinProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytroGnipel/Weather-App.git"
+  },
+  "author": "Gnipel Dmytro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmytroGnipel/Weather-App/issues"
+  },
+  "homepage": "https://github.com/DmytroGnipel/Weather-App#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "browser": {
+    "[module-name]": false   
+  }
+}

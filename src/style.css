@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgb(119, 118, 118);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, .button {
+    width: 300px;
+}
+
+.temp {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    margin: 10px;
+}
+
+#container, .hot, .normal, .cold {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    font-weight:400;
+}
+
+.hot {
+    background-image: url(./hot.jpg);
+    color: red;
+}
+
+.cold {
+    background-image: url(./cold.jpg);
+    color: black;
+}
+
+.normal {
+    background-image: url(./normal.jpg);
+    color: white;
+}
+
+.error {
+    font-size: 10px;
+    color: red;
+}
+
+.toggle {
+    height: 20px;
+    margin-right: 10px;
+}
